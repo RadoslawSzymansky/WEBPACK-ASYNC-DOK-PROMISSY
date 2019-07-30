@@ -1,0 +1,24 @@
+.taskList {
+    max-width: 320px;
+    list-style: none;
+}
+
+.taskList li {
+    border-bottom: 1px solid rgb(119, 119, 119);
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.taskList button {
+    background-color: darkcyan;
+    color: #fff;
+    cursor: pointer;
+}
+
+.taskList button:hover {
+    background-color: #fff;
+    color: darkcyan;
+    box-shadow: 0 0 1px 1px darkcyan;
+}
